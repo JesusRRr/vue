@@ -9,7 +9,8 @@ const app =new Vue({
         {nombre:'kiwi', cantidad:1},
         {nombre:'sandia',cantidad:0}
     
-        ]
+        ],
+        nuevaFruta:''
     }
 
 
