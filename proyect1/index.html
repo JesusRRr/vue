@@ -15,8 +15,8 @@
     <div id="app" class="container">
         <h2>{{titulo}}</h2>
 
-        <input type="text" v-model='nuevaFrutav'>
-        <button v-on:click="agregarFruta">click</button>
+        <input type="text" v-model='nuevaFruta'>
+        <button @click="agregarFruta">click</button>
 
         <ul>
             <li v-for="fruta of frutas">
