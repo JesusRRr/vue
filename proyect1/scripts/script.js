@@ -27,7 +27,7 @@ const app =new Vue({
             for(fruta of this.frutas){
                 this.total = this.total + fruta.cantidad;
             }
-            return this.total;
+            return this.total; 
         }
     }
 
