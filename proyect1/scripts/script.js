@@ -11,6 +11,11 @@ const app =new Vue({
     
         ],
         nuevaFruta:''
+    },
+    methods:{
+        agregarFruta: function(){
+            console.log('click');
+        }
     }
 
 
