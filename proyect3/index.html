@@ -21,8 +21,9 @@
         <h1>{{contador}}</h1>
         
         <div class="progress">
-            <div class="progress-bar bg-success" role="progressbar" :style="{'width':contador+'%'}" 
-            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar" role="progressbar" :style="{'width':contador+'%'}" 
+            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+            :class="color"></div>
         </div>
 
         
