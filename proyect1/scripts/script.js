@@ -3,11 +3,11 @@ const app =new Vue({
     data:{
         titulo: 'Hello World with Vue',
         frutas:[
-        {nombre:'manzana'},
-        {nombre:'pera'},
-        {nombre:'banana'},
-        {nombre:'kiwi'},
-        {nombre:'sandia'}
+        {nombre:'manzana', cantidad:1},
+        {nombre:'pera', cantidad:1},
+        {nombre:'banana',cantidad:1},
+        {nombre:'kiwi', cantidad:1},
+        {nombre:'sandia',cantidad:0}
     
         ]
     }
