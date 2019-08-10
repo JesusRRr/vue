@@ -3,6 +3,7 @@ Vue.component('padre',{
     `
     <div class="p-5 bg-dark text-white">
         <h2>Componente padre</h2>
+        <hijo></hijo>
     
     </div>   
     
